@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="h-screen flex flex-col items-center justify-center ">
+        <form action="" class="w-[50%] flex flex-col items-center justify-center h-[75%] border-2 border-gray-300 p-4">
+            <h3 class="text-center font-bold text-blue-600 text-[32px] p-4">Sign Up</h3>
+            <br />
+            <hr class="border-2 border-slate-900" />
+            <br />
+            <div class="flex flex-col">
+                <label for="name" class="font-semibold text-[20px]">Enter your Name</label>
+            <input type="text" placeholder="name" class="border-2  border-gray-600">
+            <label for="email" class="font-semibold text-[20px]">Enter your Email</label>
+            <input type="email" placeholder="email" class="border-2  border-gray-600">
+            <label for="password" class="font-semibold text-[20px]">Enter your Password</label>
+            <input type="password" placeholder="password" class="border-2  border-gray-600">
+            <label for="dob" class="font-semibold text-[20px]">Enter your Date of Birth</label>
+            <input type="datetime-local" placeholder="name" class="border-2 border-gray-600">
+            <div>
+                <label for="name" class="font-semibold text-[20px]">Enter your Gender</label><br />
+                <input type="radio">male
+                <input type="radio">Female
+            </div>
+            <label for="name" class="font-semibold text-[20px]">Language you Know</label>
+            <select name="" id="" class="">
+                <option value="">Choose</option>
+                <option value="">Tamil</option>
+                <option value="">English</option>
+                <option value="">Japanese</option>
+            </select><br />
+            <div class="inline-block"> 
+                <button type="submit" class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 border-[2px] border-black rounded p-2">Send</button>
+                <button type="reset" class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 border-[2px] border-black rounded p-2">Reset</button>
+            </div>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
